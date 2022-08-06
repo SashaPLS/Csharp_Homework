@@ -8,7 +8,8 @@ if (firstNumber > secondNumber)
 {
     Console.WriteLine("Первое число "+ firstNumber +" больше,чем второе ");
 }
-else if (secondNumber > firstNumber);
+else
 {
     Console.WriteLine("Второе число "+ secondNumber +" больше,чем первое ");
 }
+
