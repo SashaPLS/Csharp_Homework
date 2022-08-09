@@ -6,9 +6,9 @@ int secondNumber = 1;
 while (secondNumber <= number)
 {
     if (secondNumber % 2 == 0)
-    
-        Console.WriteLine (secondNumber + ",");
-        secondNumber += 1;
-  
+
+        Console.WriteLine(secondNumber + ",");
+    secondNumber += 1;
+
 }
 
