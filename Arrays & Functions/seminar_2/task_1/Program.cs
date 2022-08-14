@@ -11,7 +11,10 @@ if (firstNumber[0] == firstNumber[4] && firstNumber[1] == firstNumber[3])
 else
 
     Console.WriteLine("Число не является палиндромом");
-
+if (number.Length != 5)
+    {
+        Console.WriteLine("Вы ввели не пятизначное число");
+    }
 string ReadInt(string message)
 {
     Console.Write(message);
