@@ -1,0 +1,15 @@
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\bin\Debug\net6.0\second_task.exe
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\bin\Debug\net6.0\second_task.deps.json
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\bin\Debug\net6.0\second_task.runtimeconfig.json
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\bin\Debug\net6.0\second_task.dll
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\bin\Debug\net6.0\second_task.pdb
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.csproj.AssemblyReference.cache
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.AssemblyInfoInputs.cache
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.AssemblyInfo.cs
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.csproj.CoreCompileInputs.cache
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.dll
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\refint\second_task.dll
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.pdb
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\second_task.genruntimeconfig.cache
+D:\GitVisualCode\Csharp_Homework\Arrays & Functions\seminar_1\second_task\obj\Debug\net6.0\ref\second_task.dll
