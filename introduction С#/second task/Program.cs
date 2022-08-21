@@ -11,18 +11,18 @@ if (firstNumber > secondNumber)
 {
     if (firstNumber > thirdNumber)
     {
-        Console.WriteLine("Первое число:  "+ firstNumber +" "+maxNumber+"");
+        Console.WriteLine("Первое число:  " + firstNumber + " " + maxNumber + "");
     }
     else
     {
-        Console.WriteLine("Третье число: "+ thirdNumber +" "+maxNumber+"");
+        Console.WriteLine("Третье число: " + thirdNumber + " " + maxNumber + "");
     }
 }
 else if (thirdNumber < secondNumber)
-    {
-        Console.WriteLine("Второе число: "+ secondNumber +" "+maxNumber+"");
-    }
+{
+    Console.WriteLine("Второе число: " + secondNumber + " " + maxNumber + "");
+}
 else
-    {
-        Console.WriteLine("Третье число: "+ thirdNumber +" "+maxNumber+"");
-    }
+{
+    Console.WriteLine("Третье число: " + thirdNumber + " " + maxNumber + "");
+}
