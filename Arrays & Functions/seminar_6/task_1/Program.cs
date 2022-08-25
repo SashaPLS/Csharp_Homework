@@ -18,8 +18,8 @@ for (int i = 0; i < numbers.Length; i++)
         count ++;
     }
 }   
-Console.WriteLine(count - minus - zero - comma - minus);
-Console.WriteLine(comma + 1 - minus);
+// Console.WriteLine(count - minus - zero - comma - minus);
+Console.WriteLine(comma + 1 - minus - zero);
 
 int CountMinus (int [] array)
 {
