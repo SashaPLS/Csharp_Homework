@@ -5,11 +5,11 @@
 
 int number = ReadInt("Введите число: ");
 int temp = 0;
-int count = 0;
-int len = CountDigit(number);
+int length = CountDigit(number);
+
 int CountDigit(int a)
 {
-    int c = 0;
+    int c = 3;
     while(a > 0)
     {
         a /= 10;
@@ -18,11 +18,10 @@ int CountDigit(int a)
     return c;
 }
 
-for (int i = 0; i < len; i++)
+for (int i = 0; i < length; i++)
 {
-    temp = temp + number % 10;
-    number = number / 10;
-   
+    temp = temp + number % 10; 
+    number = number / 10; 
 }
 Console.WriteLine(temp);    
 
