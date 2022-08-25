@@ -2,24 +2,24 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223 -> 4
 
-string numbers = ReadStr("Введите количество цифр через запятую: ");
+string numbers = ReadString("Введите количество цифр через запятую: ");
 numbers = numbers.Replace (" ","");
 int [] array = new int[numbers.Length];
 int count = 0;
-int minus = CountMinus(array);
-int zero = CountZero(array);
-int comma = CountComma(array);
+int minusNumbers = CountMinus(array);
+int zeroNumbers = CountZero(array);
+int commaNumbers = CountComma(array);
 
-for (int i = 0; i < numbers.Length; i++)
-{
-    array[i] = Convert.ToInt32(numbers[i]);
-    if(array[i] > 0)
-    {
-        count ++;
-    }
-}   
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     array[i] = Convert.ToInt32(numbers[i]);
+//     if(array[i] > 0)
+//     {
+//         count ++;
+//     }
+// }   
 // Console.WriteLine(count - minus - zero - comma - minus);
-Console.WriteLine(comma + 1 - minus - zero);
+Console.WriteLine(commaNumbers - minusNumbers - zeroNumbers);
 
 int CountMinus (int [] array)
 {
@@ -39,14 +39,14 @@ int CountZero (int [] array)
 }
 int CountComma (int [] array)
 {
-    int counterComma = 0;
+    int counterComma = 1;
     for (int i = 0; i < numbers.Length; i++)   
         if(numbers[i] == ',')
         counterComma++;
         return counterComma;
 }
 
-string ReadStr(string message)
+string ReadString(string message)
 {
     Console.Write(message);
     return Console.ReadLine();
