@@ -1,4 +1,4 @@
-// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223 -> 4
 
@@ -31,7 +31,7 @@ Console.WriteLine(count);
 string ReadString(string message)
 {
     Console.WriteLine(message);
-    return Convert.ToString(Console.ReadLine());
+    return Convert.ToString(Console.ReadLine() +',');
 }
 
 //TODO: мое неправильное решение этого примера,все равно решил Вам скинуть
