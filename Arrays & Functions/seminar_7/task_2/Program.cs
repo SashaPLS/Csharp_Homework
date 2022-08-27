@@ -22,7 +22,7 @@ if (rows < array.GetLength(0) && columns < array.GetLength(1))
     }
 else
 {
-    Console.WriteLine("Такого числа в массиве нет");
+    Console.WriteLine("Такого элемента в массиве нет");
 }  
 
 void FillArray2D(int[,] array)
