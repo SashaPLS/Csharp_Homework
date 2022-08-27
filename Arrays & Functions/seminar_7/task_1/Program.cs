@@ -4,11 +4,12 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-double rows = ReadInt("Введите количество строк: ");
-double columns = ReadInt("Введите количество столбцов: ");
-double[,] numbers = new double[rows, columns];
-FillArray2D(numbers);
-PrintArray2D(numbers);
+int rows = ReadInt("Введите количество строк: ");
+int columns = ReadInt("Введите количество столбцов: ");
+double[,] array = new double [rows,columns];
+
+FillArray2D(array);
+PrintArray2D(array);
 
 void FillArray2D(double[,] array)
 {
@@ -16,7 +17,7 @@ void FillArray2D(double[,] array)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().NextDouble() * 100;
+            array[i, j] = new Random().NextDouble() * 10;
         }
     }
 }
@@ -34,8 +35,8 @@ void PrintArray2D(double[,] array)
     Console.WriteLine();
 }
 
-double ReadInt(string message)
+int ReadInt(string message)
 {
     Console.Write(message);
-    return Double.Parse (Console.ReadLine());
+    return Convert.ToInt32(Console.ReadLine());
 }
